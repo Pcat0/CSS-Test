@@ -1,0 +1,15 @@
+a.form-name {
+    text-decoration: none;
+}
+a.form-name:hover {
+    text-decoration: underline;
+}
+a.form-name[href^="/en/AchieveForms/"],
+a.form-name[href^="/en/AchieveForms/"] * {
+    color: LightGray;
+    transition: .3s;
+}
+a.form-name[href^="/en/AchieveForms/"]:hover,
+a.form-name[href^="/en/AchieveForms/"]:hover *{
+    color: DarkGray;
+}
